@@ -4,40 +4,73 @@ DESCRIÇÃO:
 Este projeto utiliza o PySpark Streaming para realizar a análise de um conjunto de dados sobre Covid-19 no Brasil, fornecendo insights em tempo real sobre diferentes aspectos da pandemia. A análise é realizada no Google Colab. Os dados são provenientes de um arquivo CSV (covid.csv) que contém informações sobre casos de Covid-19 no Brasil. Os campos relevantes incluem:
 
 dataNascimento: Data de nascimento do paciente
+
 sintomas: Sintomas apresentados pelo paciente
+
 profissionalSaude: Indica se o paciente é um profissional de saúde
+
 cbo: Ocupação do paciente
+
 condicoes: Condições pré-existentes do paciente
+
 estadoTeste: Estado onde o teste foi realizado
+
 dataTeste: Data em que o teste foi realizado
+
 tipoTeste: Tipo de teste realizado
+
 resultadoTeste: Resultado do teste (Positivo/Negativo)
+
 paisOrigem: País de origem do paciente
+
 sexo: Sexo do paciente
+
 bairro: Bairro do paciente
+
 estado: Estado do paciente
+
 estadoIBGE: Código IBGE do estado do paciente
+
 municipio: Município do paciente
+
 municipioIBGE: Código IBGE do município do paciente
+
 cep: CEP do paciente
+
 origem: Origem do paciente
+
 cnes: Código da unidade de saúde
+
 estadoNotificacao: Estado da notificação
+
 estadoNotificacaoIBGE: Código IBGE do estado da notificação
+
 municipioNotificacao: Município da notificação
+
 municipioNotificacaoIBGE: Código IBGE do município da notificação
+
 numeroNotificacao: Número da notificação
+
 excluido: ID de exclusão
+
 validado: Local de validação
+
 idade: Idade do paciente
+
 dataEncerramento: Data de encerramento da avaliação do paciente
+
 evolucaoCaso: Evolução do caso do paciente
+
 classificacaoFinal: Avaliação final do caso
+
 Funcionalidades do Código
+
 Configuração do Ambiente
-Instalação das Dependências:
+
+## Instalação das Dependências:
 
 Instalação da biblioteca pyspark para trabalhar com Spark no Google Colab.
+
 Configuração do PySpark:
 
 Configuração do contexto do Spark e do StreamingContext com intervalos de processamento de 10 segundos.
