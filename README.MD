@@ -67,15 +67,14 @@ classificacaoFinal: Avaliação final do caso
 
 ## Configuração do Ambiente
 
-  ## Instalação das Dependências:
-
 Instalação da biblioteca pyspark para trabalhar com Spark no Google Colab.
 
-Configuração do PySpark:
+##Configuração do PySpark:
 
-Configuração do contexto do Spark e do StreamingContext com intervalos de processamento de 10 segundos.
-Simulação de Streaming
-Simulação de Envio de Dados:
+- Configuração do contexto do Spark e do StreamingContext com intervalos de processamento de 10 segundos.
+- Simulação de Streaming
+
+## Simulação de Envio de Dados:
 Os dados do arquivo covid.csv são carregados e enviados para o Spark Streaming em lotes de 10 linhas, simulando um fluxo de dados contínuo.
 Processamento e Análises em Tempo Real
 Quantidade de Pacientes Positivos:
@@ -100,7 +99,8 @@ Dia da Semana com Mais Testes Realizados:
 
 Determina o dia da semana com a maior quantidade de testes realizados nos últimos dois minutos, com atualizações a cada 40 segundos.
 Execução do Streaming
-Iniciar o Streaming:
+
+## Iniciar o Streaming:
 O streaming é iniciado e executado por um período de 120 segundos, permitindo que as consultas sejam processadas e atualizadas conforme os dados chegam.
 
 ## Licença
