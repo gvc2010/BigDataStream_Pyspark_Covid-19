@@ -2,7 +2,7 @@
 
 DESCRIÇÃO:
 Este projeto utiliza o PySpark Streaming para realizar a análise de um conjunto de dados sobre Covid-19 no Brasil, fornecendo insights em tempo real sobre diferentes aspectos da pandemia. A análise é realizada no Google Colab. Os dados são provenientes de um arquivo CSV (covid.csv) que contém informações sobre casos de Covid-19 no Brasil. Os campos relevantes incluem:
-
+```bash
 dataNascimento: Data de nascimento do paciente
 
 sintomas: Sintomas apresentados pelo paciente
@@ -62,6 +62,7 @@ dataEncerramento: Data de encerramento da avaliação do paciente
 evolucaoCaso: Evolução do caso do paciente
 
 classificacaoFinal: Avaliação final do caso
+```
 
 Funcionalidades do Código
 
@@ -102,3 +103,8 @@ Determina o dia da semana com a maior quantidade de testes realizados nos últim
 Execução do Streaming
 Iniciar o Streaming:
 O streaming é iniciado e executado por um período de 120 segundos, permitindo que as consultas sejam processadas e atualizadas conforme os dados chegam.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
