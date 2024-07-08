@@ -64,11 +64,10 @@ evolucaoCaso: Evolução do caso do paciente
 classificacaoFinal: Avaliação final do caso
 ```
 
-Funcionalidades do Código
 
-Configuração do Ambiente
+## Configuração do Ambiente
 
-## Instalação das Dependências:
+  ## Instalação das Dependências:
 
 Instalação da biblioteca pyspark para trabalhar com Spark no Google Colab.
 
